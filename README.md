@@ -27,7 +27,7 @@ sqlago driver is a wrapper over SQL Anywhere C API
             log.Fatalf("Select failed: %s", err)
         }
         // Run query with multiple return rows
-        rows, err = db.Query("select version, product, uid from products")
+        rows, err := db.Query("select version, product, uid from products")
         if err != nil {
             log.Fatalf("Select failed: %s", err)
         }
