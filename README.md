@@ -3,7 +3,7 @@
 sqlago driver is a wrapper over SQL Anywhere C API
 
 ## Installation
-  go get github.com/a-palchikov/sqlago
+  go get github.com/ambelovsky/sqlago
 
 ## Examples of use:
 ```go
